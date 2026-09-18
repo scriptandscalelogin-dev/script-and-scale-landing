@@ -31,7 +31,7 @@ export default function App() {
       
       // Redirect to cal.com after 1 second
       setTimeout(() => {
-        window.location.href = 'https://cal.com/arno-de-meyer/discovery-call'
+        window.location.href = 'https://cal.com/arno-script-scale/chat-with-me'
       }, 1000)
     } catch (err) {
       setError(err.message || 'Something went wrong. Try again.')
