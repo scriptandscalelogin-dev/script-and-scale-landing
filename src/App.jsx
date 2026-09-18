@@ -29,9 +29,9 @@ export default function App() {
       setSubmitted(true)
       setEmail('')
       
-      // Redirect to Calendly after 1 second
+      // Redirect to cal.com after 1 second
       setTimeout(() => {
-        window.location.href = 'https://calendly.com/arno-de-meyer/discovery-call'
+        window.location.href = 'https://cal.com/arno-de-meyer/discovery-call'
       }, 1000)
     } catch (err) {
       setError(err.message || 'Something went wrong. Try again.')
